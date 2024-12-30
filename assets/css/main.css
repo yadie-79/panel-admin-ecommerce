@@ -1,0 +1,60 @@
+:root {
+  --color-transparent: transparent;
+  --color-white: #fff;
+  --color-black: #000;
+  --color-dark: #333;
+}
+
+@font-face {
+  font-family: "San Francisco";
+  font-weight: 400;
+  src: url(../fonts/sanfranciscodisplay-regular-webfont.woff);
+}
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  color: var(--color-dark);
+  font-family: "San Francisco";
+}
+body a {
+  cursor: pointer;
+}
+
+.btn {
+  border-radius: 4px !important;
+  letter-spacing: 0.5px;
+}
+.btn:focus {
+  box-shadow: none;
+}
+
+.navbar .navbar-brand {
+  font-weight: 900;
+  letter-spacing: 2px;
+}
+.navbar .navbar-nav .nav-item .nav-link {
+  letter-spacing: 0.5px;
+}
+.navbar .navbar-nav .nav-item .nav-link .active {
+  font-weight: 900;
+}
+
+.form-control:focus, .form-select:focus, textarea:focus {
+  box-shadow: none !important;
+}
+
+.form-container {
+  border-radius: 14px;
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, 0.1);
+  padding: 32px;
+  width: 50%;
+}
+
+footer {
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, 0.1);
+  padding: 32PX;
+}
+
+/*# sourceMappingURL=main.css.map */

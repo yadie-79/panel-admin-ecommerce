@@ -1,0 +1,48 @@
+@font-face
+  font-family: "San Francisco"
+  font-weight: 400
+  src: url(../fonts/sanfranciscodisplay-regular-webfont.woff)
+
+html
+  scroll-behavior: smooth
+
+body
+  color: var(--color-dark)
+  font-family: "San Francisco"
+
+  a
+    cursor: pointer
+
+.btn
+  border-radius: 4px !important
+  letter-spacing: .5px
+
+  &:focus
+    box-shadow: none
+
+.navbar
+  .navbar-brand
+    font-weight: 900
+    letter-spacing: 2px
+
+  .navbar-nav
+    .nav-item
+      .nav-link
+        letter-spacing: .5px
+
+        .active
+          font-weight: 900
+
+.form-control, .form-select, textarea
+  &:focus
+    box-shadow: none !important
+
+.form-container
+  border-radius: 14px
+  box-shadow: 0 0 15px 0 rgba(0, 0, 0, .1)
+  padding: 32px
+  width: 50%
+
+footer
+  box-shadow: 0 -4px 6px rgba(0, 0, 0, .1)
+  padding: 32PX
